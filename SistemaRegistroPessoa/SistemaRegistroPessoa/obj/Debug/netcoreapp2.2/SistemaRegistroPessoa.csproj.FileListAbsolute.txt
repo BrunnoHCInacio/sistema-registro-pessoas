@@ -1,0 +1,16 @@
+/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/bin/Debug/netcoreapp2.2/appsettings.Development.json
+/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/bin/Debug/netcoreapp2.2/appsettings.json
+/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
+/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/bin/Debug/netcoreapp2.2/SistemaRegistroPessoa.deps.json
+/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/bin/Debug/netcoreapp2.2/SistemaRegistroPessoa.runtimeconfig.json
+/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/bin/Debug/netcoreapp2.2/SistemaRegistroPessoa.runtimeconfig.dev.json
+/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/bin/Debug/netcoreapp2.2/SistemaRegistroPessoa.dll
+/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/bin/Debug/netcoreapp2.2/SistemaRegistroPessoa.pdb
+/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/obj/Debug/netcoreapp2.2/SistemaRegistroPessoa.csproj.CoreCompileInputs.cache
+/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/obj/Debug/netcoreapp2.2/SistemaRegistroPessoa.RazorAssemblyInfo.cache
+/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/obj/Debug/netcoreapp2.2/SistemaRegistroPessoa.RazorAssemblyInfo.cs
+/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/obj/Debug/netcoreapp2.2/SistemaRegistroPessoa.AssemblyInfoInputs.cache
+/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/obj/Debug/netcoreapp2.2/SistemaRegistroPessoa.AssemblyInfo.cs
+/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/obj/Debug/netcoreapp2.2/SistemaRegistroPessoa.RazorTargetAssemblyInfo.cache
+/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/obj/Debug/netcoreapp2.2/SistemaRegistroPessoa.dll
+/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/obj/Debug/netcoreapp2.2/SistemaRegistroPessoa.pdb

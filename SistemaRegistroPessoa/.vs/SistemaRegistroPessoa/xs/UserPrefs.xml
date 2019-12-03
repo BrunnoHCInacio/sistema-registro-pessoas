@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{CD23623B-2470-4523-BDE0-78DEB059981C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SistemaRegistroPessoa/Interfaces/IRepository.cs">
+    <Files>
+      <File FileName="SistemaRegistroPessoa/Controllers/PessoasController.cs" Line="61" Column="49" />
+      <File FileName="SistemaRegistroPessoa/Repository/PessoaRepository.cs" Line="11" Column="48" />
+      <File FileName="SistemaRegistroPessoa/Interfaces/IRepository.cs" Line="10" Column="39" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SistemaRegistroPessoa" expanded="True">
+            <Node name="SistemaRegistroPessoa" expanded="True">
+              <Node name="Context" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Interfaces" expanded="True">
+                <Node name="IRepository.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Repository" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SistemaRegistroPessoa PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
