@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/SistemaRegistroPessoa.csproj": {}
+    "C:\\Users\\GS\\Documents\\dev\\Arquivos importantes\\Aquivos Teste\\Etica RH - teste\\sistema-registro-pessoas\\SistemaRegistroPessoa\\SistemaRegistroPessoa\\SistemaRegistroPessoa.csproj": {}
   },
   "projects": {
-    "/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/SistemaRegistroPessoa.csproj": {
+    "C:\\Users\\GS\\Documents\\dev\\Arquivos importantes\\Aquivos Teste\\Etica RH - teste\\sistema-registro-pessoas\\SistemaRegistroPessoa\\SistemaRegistroPessoa\\SistemaRegistroPessoa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/SistemaRegistroPessoa.csproj",
+        "projectUniqueName": "C:\\Users\\GS\\Documents\\dev\\Arquivos importantes\\Aquivos Teste\\Etica RH - teste\\sistema-registro-pessoas\\SistemaRegistroPessoa\\SistemaRegistroPessoa\\SistemaRegistroPessoa.csproj",
         "projectName": "SistemaRegistroPessoa",
-        "projectPath": "/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/SistemaRegistroPessoa.csproj",
-        "packagesPath": "/Users/Brunno/.nuget/packages/",
-        "outputPath": "/Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/obj/",
+        "projectPath": "C:\\Users\\GS\\Documents\\dev\\Arquivos importantes\\Aquivos Teste\\Etica RH - teste\\sistema-registro-pessoas\\SistemaRegistroPessoa\\SistemaRegistroPessoa\\SistemaRegistroPessoa.csproj",
+        "packagesPath": "C:\\Users\\GS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GS\\Documents\\dev\\Arquivos importantes\\Aquivos Teste\\Etica RH - teste\\sistema-registro-pessoas\\SistemaRegistroPessoa\\SistemaRegistroPessoa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/Brunno/.config/NuGet/NuGet.Config"
+          "C:\\Users\\GS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,7 +72,8 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

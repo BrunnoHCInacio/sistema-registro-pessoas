@@ -14,3 +14,10 @@
 /Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/obj/Debug/netcoreapp2.2/SistemaRegistroPessoa.RazorTargetAssemblyInfo.cache
 /Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/obj/Debug/netcoreapp2.2/SistemaRegistroPessoa.dll
 /Users/Brunno/Labs/SistemaRegistroPessoa/SistemaRegistroPessoa/obj/Debug/netcoreapp2.2/SistemaRegistroPessoa.pdb
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Etica RH - teste\sistema-registro-pessoas\SistemaRegistroPessoa\SistemaRegistroPessoa\obj\Debug\netcoreapp2.2\SistemaRegistroPessoa.csprojAssemblyReference.cache
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Etica RH - teste\sistema-registro-pessoas\SistemaRegistroPessoa\SistemaRegistroPessoa\obj\Debug\netcoreapp2.2\SistemaRegistroPessoa.RazorAssemblyInfo.cache
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Etica RH - teste\sistema-registro-pessoas\SistemaRegistroPessoa\SistemaRegistroPessoa\obj\Debug\netcoreapp2.2\SistemaRegistroPessoa.RazorAssemblyInfo.cs
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Etica RH - teste\sistema-registro-pessoas\SistemaRegistroPessoa\SistemaRegistroPessoa\obj\Debug\netcoreapp2.2\SistemaRegistroPessoa.AssemblyInfoInputs.cache
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Etica RH - teste\sistema-registro-pessoas\SistemaRegistroPessoa\SistemaRegistroPessoa\obj\Debug\netcoreapp2.2\SistemaRegistroPessoa.AssemblyInfo.cs
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Etica RH - teste\sistema-registro-pessoas\SistemaRegistroPessoa\SistemaRegistroPessoa\obj\Debug\netcoreapp2.2\SistemaRegistroPessoa.dll
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Etica RH - teste\sistema-registro-pessoas\SistemaRegistroPessoa\SistemaRegistroPessoa\obj\Debug\netcoreapp2.2\SistemaRegistroPessoa.pdb
