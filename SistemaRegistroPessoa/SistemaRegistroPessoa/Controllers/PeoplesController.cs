@@ -10,27 +10,30 @@ using SistemaRegistroPessoa.Models;
 
 namespace SistemaRegistroPessoa.Controllers
 {
-    [Route("api/pessoas")]
+    [Route("api/peoples")]
     public class PeoplesController : MainController
     {
         private readonly IRepository _repository;
+        private readonly IServices _service;
 
         public PeoplesController(INotifier notifier,
-                                 IRepository repository) : base(notifier)
+                                 IRepository repository, 
+                                 IServices service) : base(notifier)
         {
             _repository = repository;
+            _service = service;
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Pessoa>> ObterTodos()
+        public async Task<IEnumerable<People>> GetAll()
         {
-            return await _repository.ObterTodos();
+            return await _repository.GetAll();
         }
 
-        [HttpGet("obter-por-id/{id:guid}")]
-        public async Task<ActionResult<Pessoa>> ObterPorId(Guid id)
+        [HttpGet("get-by-id/{id:guid}")]
+        public async Task<ActionResult<People>> GetById(Guid id)
         {
-            var pessoa = await _repository.ObterPorId(id);
+            var pessoa = await _repository.GetById(id);
             if(pessoa == null)
             {
                return NotFound();
@@ -39,38 +42,32 @@ namespace SistemaRegistroPessoa.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Adicionar(Pessoa pessoa)
+        public async Task<ActionResult> Add(People people)
         {
             if (!ModelState.IsValid) return CustomResponse(ModelState);
+
+            await _service.Add(people);
             
-            await _repository.Adicionar(pessoa);
-            return CustomResponse(pessoa);
+            return CustomResponse(people);
         }
 
         [HttpPut("{id:guid}")]
-        public async Task<ActionResult> Atualizar(Guid id, Pessoa pessoa)
+        public async Task<ActionResult> Update(People people)
         {
-            
-            if(id != pessoa.Id)
-            {
-                NotifyError("O id informado não é o mesmo que foi passado na query");
-                return CustomResponse(pessoa);
-            }
             if (!ModelState.IsValid) return CustomResponse(ModelState);
-            await _repository.Atualizar(pessoa);
-            return CustomResponse(pessoa);
+            await _service.Update(people);
+            return CustomResponse(people);
         }
 
         [HttpDelete("{id:guid}")]
-        public async Task<ActionResult> Remover(Guid id)
+        public async Task<ActionResult> Delete(Guid id)
         {
-            var pessoa = await _repository.ObterPorId(id);
-            if(pessoa == null)
+            var people = await _repository.GetById(id);
+            if(people == null)
             {
                 return NotFound();
             }
-            await _repository.Remover(pessoa.Id);
-            Notify("Registro removido com sucesso");
+            await _repository.Delete(people);
             return CustomResponse();
         }
 

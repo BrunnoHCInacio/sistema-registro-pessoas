@@ -1,20 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using SistemaRegistroPessoa.Context;
 using SistemaRegistroPessoa.Interfaces;
-using SistemaRegistroPessoa.Notificacoes;
+using SistemaRegistroPessoa.Notifications;
 using SistemaRegistroPessoa.Repository;
+using SistemaRegistroPessoa.Services;
 
 namespace SistemaRegistroPessoa
 {
@@ -34,8 +28,9 @@ namespace SistemaRegistroPessoa
             services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase("DataBase"));
             services.Configure<ApiBehaviorOptions>(options => options.SuppressModelStateInvalidFilter = true);
 
-            services.AddScoped<INotificador, Notificador>();
-            services.AddScoped<IRepository, PessoaRepository>();
+            services.AddScoped<INotifier, Notifier>();
+            services.AddScoped<IRepository, PeopleRepository>();
+            services.AddScoped<IServices, PeopleService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

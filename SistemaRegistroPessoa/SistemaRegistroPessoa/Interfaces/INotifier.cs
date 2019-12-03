@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using SistemaRegistroPessoa.Notificacoes;
+using SistemaRegistroPessoa.Notifications;
 
 namespace SistemaRegistroPessoa.Interfaces
 {
-    public interface INotifier : IDisposable
+    public interface INotifier
     {
-        bool HasNotificationError();
-        List<Notificacao> GetNotifications();
-        void Handle(Notificacao notificacao);
+        bool HasNotification();
+        List<Notification> GetNotifications();
+        void Handle(Notification notification);
     }
 }

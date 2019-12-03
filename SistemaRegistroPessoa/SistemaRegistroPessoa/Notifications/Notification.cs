@@ -1,13 +1,14 @@
 ﻿using System;
-namespace SistemaRegistroPessoa.Notificacoes
+namespace SistemaRegistroPessoa.Notifications
 {
-    public class Notificacao
+    public class Notification
     {
-        public Notificacao(string message)
+        public Notification(string message)
         {
             Message = message;
         }
 
         public string Message { get; set; }
+
     }
 }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SistemaRegistroPessoa.Notificacoes
+namespace SistemaRegistroPessoa.Notifications
 {
-    public enum TipoNotificacao
+    public enum EnumTypeNotification
     {
         ERROR,
         SUCCESS
