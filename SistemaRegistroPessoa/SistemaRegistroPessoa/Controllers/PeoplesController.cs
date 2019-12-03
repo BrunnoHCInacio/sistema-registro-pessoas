@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SistemaRegistroPessoa.Context;
@@ -10,6 +11,7 @@ using SistemaRegistroPessoa.Models;
 
 namespace SistemaRegistroPessoa.Controllers
 {
+    [Authorize]
     [Route("api/peoples")]
     public class PeoplesController : MainController
     {
@@ -52,7 +54,7 @@ namespace SistemaRegistroPessoa.Controllers
         }
 
         [HttpPut("{id:guid}")]
-        public async Task<ActionResult> Update(People people)
+        public async Task<ActionResult> Update(Guid id, People people)
         {
             if (!ModelState.IsValid) return CustomResponse(ModelState);
             await _service.Update(people);

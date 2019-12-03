@@ -64,7 +64,7 @@ namespace SistemaRegistroPessoa.Repository
         public bool ExistCPF(Guid id,string cpf)
         {
             var people = _context.Peoples.FirstOrDefault(p => p.Cpf == cpf);
-            if (people != null && people.Cpf != cpf)
+            if (people != null && people.Id != id)
             {
                 return true;
             }
