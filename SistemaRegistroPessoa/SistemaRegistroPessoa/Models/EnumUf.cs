@@ -1,5 +1,4 @@
-﻿using System;
-namespace SistemaRegistroPessoa.Models
+﻿namespace SistemaRegistroPessoa.Models
 {
     public enum EnumUf
     {

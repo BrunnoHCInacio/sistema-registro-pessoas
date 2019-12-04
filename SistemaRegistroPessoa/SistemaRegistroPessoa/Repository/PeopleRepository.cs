@@ -46,9 +46,9 @@ namespace SistemaRegistroPessoa.Repository
             await _context.SaveChangesAsync();
         }
 
-        Task<IEnumerable<People>> IRepository.GetPeoplesByUf(EnumUf uf)
+        public async Task<IEnumerable<People>> GetPeoplesByUf(EnumUf uf)
         {
-            throw new NotImplementedException();
+            return await _context.Peoples.Where(p => p.Uf == uf).ToListAsync();
         }
 
         public bool ExistCPF(string cpf)

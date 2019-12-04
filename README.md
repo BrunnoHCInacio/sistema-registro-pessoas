@@ -13,6 +13,9 @@ https://localhost:44352/api/peoples/
 Obter registro por Id.
 https://localhost:44352/api/peoples/get-by-id/"id do usuário"
 
+Obter registros de pessoas por UF
+https://localhost:44352/api/peoples/get-peoples-by-uf/"id da UF"
+
 Inserir registro de pessoa.
 https://localhost:44352/api/peoples/
 

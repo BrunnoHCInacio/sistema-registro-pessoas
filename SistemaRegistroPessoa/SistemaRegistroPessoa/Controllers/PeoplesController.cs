@@ -43,6 +43,12 @@ namespace SistemaRegistroPessoa.Controllers
             return pessoa;
         }
 
+        [HttpGet("get-peoples-by-uf/{uf}")]
+        public async Task<IEnumerable<People>> GetPeoplesByUf(EnumUf uf)
+        {
+            return await _repository.GetPeoplesByUf(uf);
+        }
+
         [HttpPost]
         public async Task<ActionResult> Add(People people)
         {
