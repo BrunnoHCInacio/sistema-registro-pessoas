@@ -24,6 +24,7 @@ namespace SistemaRegistroPessoa.Services
                 Notify("Já existe um registro com este CPF");
                 return;
             }
+            people.Id = Guid.NewGuid();
             await _repository.Add(people);
         }
 

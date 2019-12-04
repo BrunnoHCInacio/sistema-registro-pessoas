@@ -5,10 +5,6 @@ namespace SistemaRegistroPessoa.Models
 {
     public class People
     {
-        public People()
-        {
-            Id = Guid.NewGuid();
-        }
         [Key]
         public Guid Id { get; set; }
 
